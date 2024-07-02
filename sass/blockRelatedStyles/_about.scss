@@ -1,0 +1,64 @@
+@import "../utilityStyles/theme";
+
+#about {
+  background-color: $color-background;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 0;
+  justify-content: space-evenly;
+
+  .container {
+    width: 45%; // Two-column layout on larger screens
+    margin: 10px; // Add margin to space out cards
+
+    background-color: $color-card;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+      margin-bottom: 20px;
+      color: $color-primary;
+    }
+
+    p {
+      line-height: 1.5em;
+      color: $color-primary;
+    }
+
+    a {
+      color: $color-primary-alt;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      padding: 10px;
+
+      li {
+        padding: 10px;
+        margin: 10px;
+        background-color: $color-primary-alt;
+        border-radius: 10%;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  }
+}

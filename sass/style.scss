@@ -1,0 +1,18 @@
+// Import global styles and variables
+@import "globalCss/fonts";
+@import "globalCss/typography";
+@import "utilityStyles/theme"; 
+
+// Import block-related styles
+@import "blockRelatedStyles/about";
+@import "blockRelatedStyles/contribute";
+@import "blockRelatedStyles/files";
+@import "blockRelatedStyles/footer";
+@import "blockRelatedStyles/guidelines";
+@import "blockRelatedStyles/header";
+@import "blockRelatedStyles/nav";
+@import "blockRelatedStyles/profile";
+@import "blockRelatedStyles/styleSection";
+
+// Import composition-related styles
+@import "compositionRelatedStyles/layout";

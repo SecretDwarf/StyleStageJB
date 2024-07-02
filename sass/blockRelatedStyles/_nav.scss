@@ -1,0 +1,27 @@
+@import "../utilityStyles/theme"; 
+
+nav {
+  background-color: $color-background;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 5px $color-primary-alt solid;
+  
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li{
+      margin: 10px;
+      padding: 10px;
+      
+      a{
+        color:white; 
+        text-decoration: none;
+      }
+
+    }
+
+  }
+
+}

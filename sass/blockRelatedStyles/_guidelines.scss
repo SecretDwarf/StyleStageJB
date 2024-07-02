@@ -1,0 +1,50 @@
+@import "../utilityStyles/_theme.scss";
+/* Guidelines Section */
+#guidelines {
+  background-color: $color-card;
+  padding: 50px;
+  text-align: center;
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: larger;
+    color: var(--color-primary);
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.5em;
+      padding-bottom: 50px;
+    }
+
+    a {
+      color: var(--color-primary-alt);
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: var(--color-light);
+      }
+    }
+
+    .link-guidelines {
+      background-color: var(--color-primary-alt);
+      color: var(--color-light);
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: var(--color-primary);
+      }
+    }
+  }
+}

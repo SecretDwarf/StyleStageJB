@@ -1,0 +1,598 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Sarabun", sans-serif;
+  margin: 0;
+}
+
+p,
+a,
+li {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#about {
+  background-color: #09090B;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 0;
+  justify-content: space-evenly;
+}
+#about .container {
+  width: 45%;
+  margin: 10px;
+  background-color: #1C1917;
+  padding: 20px;
+  border-radius: 10px;
+}
+#about .container h2 {
+  margin-bottom: 20px;
+  color: #FAFAFA;
+}
+#about .container p {
+  line-height: 1.5em;
+  color: #FAFAFA;
+}
+#about .container a {
+  color: #E11D48;
+  text-decoration: none;
+}
+#about .container a:hover {
+  text-decoration: underline;
+}
+#about .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 10px;
+}
+#about .container ul li {
+  padding: 10px;
+  margin: 10px;
+  background-color: #E11D48;
+  border-radius: 10%;
+  transition: transform 0.3s ease-in-out;
+}
+#about .container ul li:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  #about .container {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#contribute {
+  background-color: var(--color-background);
+  padding-bottom: 150px;
+}
+
+#contribute .container:first-child {
+  padding: 25px;
+  text-align: center;
+  background-color: #09090B;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+#contribute .container:first-child h2 {
+  padding-bottom: 20px;
+}
+
+#contribute .container:first-child h2,
+p {
+  color: #FAFAFA;
+}
+
+#contribute .container:first-child a {
+  color: #d42257;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+#contribute .container:first-child a:hover {
+  color: #FAFAFA;
+}
+
+#contribute .container:nth-child(2) {
+  padding: 25px;
+  color: #FAFAFA;
+  background-color: #09090B;
+  text-align: center;
+  list-style-position: inside;
+  font-size: larger;
+  line-height: 2em;
+  max-width: 850px;
+  margin: 0px auto;
+}
+
+#contribute .container:nth-child(2) ol {
+  display: inline-block;
+  text-align: left;
+}
+
+#contribute .container:nth-child(2) a {
+  color: #d42257;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+#contribute .container:nth-child(2) a:hover {
+  color: #FAFAFA;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#contribute #files .container {
+  background-color: #1C1917;
+  border-radius: 10px;
+  max-width: 325px;
+}
+
+#files .container h3 {
+  color: #FAFAFA;
+  padding-bottom: 30px;
+}
+
+#files .container a {
+  font-size: 20px;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #333;
+  color: var(--color-light);
+  padding: 20px 0;
+  text-align: center;
+}
+.page-footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-footer p {
+  margin: 10px 0;
+}
+.page-footer a {
+  color: var(--color-primary-alt);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.page-footer a:hover {
+  color: var(--color-light);
+}
+.page-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.page-footer ul li {
+  margin: 5px 15px;
+}
+.page-footer svg {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  margin-right: 5px;
+  fill: currentColor;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+/* Guidelines Section */
+#guidelines {
+  background-color: #1C1917;
+  padding: 50px;
+  text-align: center;
+}
+#guidelines .container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: larger;
+  color: var(--color-primary);
+}
+#guidelines .container h2 {
+  margin-bottom: 20px;
+}
+#guidelines .container h3 {
+  margin-bottom: 10px;
+}
+#guidelines .container p {
+  line-height: 1.5em;
+  padding-bottom: 50px;
+}
+#guidelines .container a {
+  color: var(--color-primary-alt);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+#guidelines .container a:hover {
+  color: var(--color-light);
+}
+#guidelines .container .link-guidelines {
+  background-color: var(--color-primary-alt);
+  color: var(--color-light);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+#guidelines .container .link-guidelines:hover {
+  background-color: var(--color-primary);
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+header {
+  background-color: #E11D48;
+  background-image: url("https://svgsilh.com/svg/980280.svg");
+  background-repeat: no-repeat;
+  /* Don't repeat the image */
+  background-position: center;
+  /* Center the image */
+  background-size: cover;
+  /* Scale the image to cover the entire body */
+  background-attachment: fixed;
+  /* Keep the image static when scrolling */
+  background-size: 110%;
+  /* Scales down to 80% of the body's width */
+  position: relative;
+  height: 500px;
+}
+header .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+header .container h1, header .container h2, header .container p {
+  color: #FAFAFA;
+  margin: 10px;
+}
+header .container a {
+  color: #FAFAFA;
+}
+header .container .link-github {
+  background-color: #FAFAFA;
+  color: #E11D48;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 30%;
+  margin: 30px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+header .container .link-github svg {
+  width: 20px;
+  margin-right: 10px;
+  fill: #E11D48;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+nav {
+  background-color: #09090B;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 5px #E11D48 solid;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 10px;
+  padding: 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #1C1917;
+  padding: 50px 0;
+}
+.profile .container {
+  background-color: #09090B;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.profile .container h4 {
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+.profile .container ul {
+  list-style: none;
+  padding: 0;
+}
+.profile .container ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.profile .container ul li span {
+  font-weight: bold;
+  color: #FAFAFA;
+}
+.profile .container ul li a {
+  color: #E11D48;
+  text-decoration: none;
+}
+.profile .container ul li a:hover {
+  text-decoration: underline;
+}
+.profile .container a {
+  display: block;
+  color: #E11D48;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  background-color: #1C1917;
+}
+.profile .container a:hover {
+  text-decoration: underline;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#styles {
+  background-color: #09090B;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#styles .container {
+  background-color: #1C1917;
+  width: 400px;
+  /* Set the container width */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+#styles .container h2 {
+  color: #FAFAFA;
+  margin-bottom: 20px;
+}
+#styles .container .features {
+  list-style: none;
+  padding: 0;
+}
+#styles .container .features li {
+  margin-bottom: 20px;
+}
+#styles .container .features li span {
+  display: block;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+#styles .container .features li span a {
+  display: block;
+  color: #E11D48;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  background-color: #09090B;
+}
+#styles .container .features li span a:hover {
+  text-decoration: underline;
+}
+#styles .container .link-allstyles {
+  display: block;
+  color: #E11D48;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #09090B;
+  transition: background-color 0.3s ease-in-out;
+}
+#styles .container .link-allstyles:hover {
+  background-color: #E11D48;
+  color: #FAFAFA;
+}
+
+:root {
+  --color-primary: #FAFAFA;
+  --color-primary-alt: #E11D48;
+  --color-secondary: #d42257;
+  --color-background: #09090B;
+  --color-text: #afafaf;
+  --color-light: #fff;
+  --color-anchor: #FAFAFA;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+body {
+  margin: 90px 0 0 0;
+}
+
+.skip-link {
+  display: none;
+}
